@@ -6,4 +6,4 @@
 * When the MadLibs story is finished you can go back and start again
 * Working navigation bar
 
-![Personality Quiz](https://github.com/noudcorten/NoudCorten-pset2/blob/master/MadLibs.png)
+<img src="https://github.com/noudcorten/NoudCorten-pset2/blob/master/MadLibs.png" width="300" height="500"/>
