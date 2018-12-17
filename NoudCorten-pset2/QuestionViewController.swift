@@ -35,7 +35,7 @@ class QuestionViewController: UIViewController {
         return Story(withText: text)
     }
     
-    // MARK: checks if the story is filled in (yes: goes to results screen, no: checks which is the next word to be filled in TEST
+    // MARK: checks if the story is filled in (yes: goes to results screen, no: checks which is the next word to be filled in
     func updateUI() {
         if story.isFilledIn {
             performSegue(withIdentifier: "ResultsSegue", sender: nil)
