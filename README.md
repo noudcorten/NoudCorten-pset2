@@ -9,4 +9,7 @@
 ## Features to be added
 * Adding bold letters to the text
 
-<img src="https://github.com/noudcorten/NoudCorten-pset2/blob/master/MadLibs.png" width="300" height="500"/>
+<p float="left">
+  <img src="https://github.com/noudcorten/NoudCorten-pset2/blob/master/MadLibs.png" width="200" height="400"/>
+  <img src="https://github.com/noudcorten/NoudCorten-pset2/blob/master/MadLibs1.png" width="200" height="400"/>
+</p>
