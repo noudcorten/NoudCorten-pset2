@@ -10,10 +10,12 @@ import UIKit
 
 class ResultsViewController: UIViewController {
 
+    // MARK: properties
     @IBOutlet weak var storyText: UILabel!
     
     var story: String!
     
+    // MARK: show the filled in story
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true

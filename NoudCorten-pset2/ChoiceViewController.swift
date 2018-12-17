@@ -10,11 +10,7 @@ import UIKit
 
 class ChoiceViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-    
+    // MARK: properties
     @IBOutlet weak var storySimple: UIButton!
     @IBOutlet weak var storyTarzan: UIButton!
     @IBOutlet weak var storyUniversity: UIButton!
@@ -23,6 +19,11 @@ class ChoiceViewController: UIViewController {
     
     var fileName: String!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    // MARK: when a category is chosen, the chosen category will be saved and a segue will be send
     @IBAction func buttonPressed(_ sender: UIButton) {
         switch sender {
         case storySimple:
@@ -40,6 +41,7 @@ class ChoiceViewController: UIViewController {
         performSegue(withIdentifier: "choiceSegue", sender: nil)
     }
     
+    // MARK: gives the name of the category file to the next controller
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "choiceSegue" {
             let questionViewController = segue.destination as! QuestionViewController
