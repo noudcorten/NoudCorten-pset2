@@ -11,5 +11,5 @@
 
 <p float="left">
   <img src="https://github.com/noudcorten/NoudCorten-pset2/blob/master/MadLibs.png" width="200" height="400"/>
-  <img src="https://github.com/noudcorten/NoudCorten-pset2/blob/master/MadLibs1.png" width="200" height="400"/>
+  <img src="https://github.com/noudcorten/NoudCorten-pset2/blob/master/Madlib1.png" width="200" height="400"/>
 </p>
